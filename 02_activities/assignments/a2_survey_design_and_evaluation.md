@@ -40,30 +40,26 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `1`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+The purpose of the survey is to understand the opinion that entry-level and low-level hires have on the company. With high turnover rates, there is an assumption that new-hires have a negative opinion of the company, which is to be assessed with this survey.
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+The target population is all past and current employees of the company, defined as entry-level or low-level. The sampling frame is all entry-level and low-level current employees of the company. Since we cannot survey employees who have left the company, the assumption is that some of the current employees will share the opinion of the those who have left. The sampling units, would be the employees which received the survey. In this case, I believe the observational units would be the same as the sampling units.
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. Are you happy with your position at the company?
+2. Would you recommend a friend for a position at the company?
+3. Would you consider the company a positive place to work?
+4. Would you consider leaving the company in the near future?
+5. Do you know of any significant issues within the company that impact your opinion? 
+6. Would you define the corporate culture of the company as being a positive place to work?
 ```
 
 ## Part B - Survey Evaluation:
@@ -71,7 +67,32 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+1. The sample type in this case is a cross-sectional survey; a series of questions asked to the respondents.
+
+2. 80,000 individuals were used, 60000 identified for the "regular sample" and 20000 additional members for the "oversample." The oversampled population was done due to increased funding for the survey.
+
+3. All residents of Canada >15 years of age, that do not live the territories, or on First Nations reserves.
+
+4. The sampling frame for the initial survey is every household as defined in the 2021 Census of Population. However a technique called "rejective sampling" was used to reduce the sampling frame. 
+
+5. Responses to the survey were collected either through an electronic questionnaire or through a computer assisted telephone interview. 
+
+6. The survey has a frequency of every 5 years.
+
+7. The overall response rate of the survey was 40.9 % (including both the original and oversmapled populations).
+
+8. The survey designers including a "WGHT_PER" variable which modifies the respondents responses based on factors such as the proportion of the total population each survey respondent represents, by income of the household, non-response bias, and non-sampling error. 
+
+9. Data processing was performed in the context of error correction, where the social survey processing environment provided a general list of steps and utilities for processing the data to limit errors and ensure best practices.
+
+10. Data imputation was performed using donor imputation where data are inputted in a missing respondents case, based on the responses of similar candidates. 
+
+11./12. Numerous sources of error and biases were identified such as:
+    - non-sampling error (ie. individuals who they could not contact, were not sampled, imperfect coverage, etc.)
+    - non-response bias 
+    - coverage error
+
+13. All information came from this link: https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=1526823
 ```
 
 ## Rubric
